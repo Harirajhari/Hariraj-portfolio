@@ -5,6 +5,8 @@ import {
   FaGitAlt, FaPython, FaAws, FaDocker, FaJava
 } from 'react-icons/fa';
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
+import { FaGithub, FaLink, FaStackOverflow  } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const icons = [
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
@@ -58,6 +60,55 @@ const SkillsCircle = () => {
         <p className="text-gray-400 text-md">
           Check out the visual orbit on the right showcasing my top skills!
         </p>
+
+        <div className="flex justify-center lg:justify-start gap-6 pt-4">
+  <div className="relative group">
+    <a
+      href="https://github.com/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-white text-3xl transition duration-300"
+      title="GitHub"
+    >
+      <FaGithub />
+    </a>
+    <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-sm text-white bg-gray-800 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
+      GitHub
+    </span>
+  </div>
+
+  <div className="relative group">
+    <a
+      href="https://leetcode.com/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-orange-400 text-3xl transition duration-300"
+      title="LeetCode"
+    >
+      <SiLeetcode />
+    </a>
+    <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-sm text-white bg-gray-800 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
+      LeetCode
+    </span>
+  </div>
+
+  <div className="relative group">
+    <a
+      href="https://stackoverflow.com/users/youruserid"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-yellow-400 text-3xl transition duration-300"
+      title="Stack Overflow"
+    >
+      <FaStackOverflow />
+    </a>
+    <span className="absolute -top-6 left-1/2 -translate-x-1/2 whitespace-nowrap text-sm text-white bg-gray-800 px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
+  Stack Overflow
+</span>
+  </div>
+</div>
+
+
       </motion.div>
 
       {/* Orbit Circle */}
