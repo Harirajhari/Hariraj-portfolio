@@ -64,7 +64,7 @@ const SkillsCircle = () => {
         <div className="flex justify-center lg:justify-start gap-6 pt-4">
   <div className="relative group">
     <a
-      href="https://github.com/yourusername"
+      href="https://github.com/Harirajhari/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-gray-300 hover:text-white text-3xl transition duration-300"
@@ -79,7 +79,7 @@ const SkillsCircle = () => {
 
   <div className="relative group">
     <a
-      href="https://leetcode.com/yourusername"
+      href="https://leetcode.com/u/21ita16/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-gray-300 hover:text-orange-400 text-3xl transition duration-300"
@@ -94,7 +94,7 @@ const SkillsCircle = () => {
 
   <div className="relative group">
     <a
-      href="https://stackoverflow.com/users/youruserid"
+      href="https://stackoverflow.com/users/24775302/hariraj-k"
       target="_blank"
       rel="noopener noreferrer"
       className="text-gray-300 hover:text-yellow-400 text-3xl transition duration-300"
