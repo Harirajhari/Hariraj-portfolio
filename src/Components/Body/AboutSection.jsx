@@ -31,13 +31,13 @@ const AboutSection = () => {
         >
           {/* Profile Image */}
           <div className="w-full md:w-1/2 flex justify-center order-2 md:order-1">
-            <div className="p-[4px] rounded-2xl bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 shadow-lg">
-              <img
-                src={myimages}
-                alt="Hariraj"
-                className="rounded-2xl w-80 h-80 object-cover bg-white dark:bg-gray-900"
-              />
-            </div>
+          <div className="p-[4px] rounded-2xl mt-12 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 shadow-lg">
+  <img
+    src={myimages}
+    alt="Hariraj"
+    className="rounded-2xl w-96 h-100 object-cover bg-white dark:bg-gray-900"
+  />
+</div>
           </div>
 
           {/* Text Content */}
@@ -46,10 +46,12 @@ const AboutSection = () => {
               About Me
             </h2>
             <p className="text-lg leading-relaxed">
-              Hey! I’m <span className="font-semibold text-violet-500">Hariraj</span>, a passionate developer who loves building cool, real-world apps. I enjoy mixing creativity with code and always look for new things to learn.
-              <br /><br />
-              Whether it’s frontend design or backend logic, I’m all in. Let’s build something amazing together!
-            </p>
+  Hey! I’m <span className="font-semibold text-violet-500">Hariraj</span>, a passionate <span className="font-semibold text-violet-500">Full Stack Developer</span> who loves turning ideas into real-world, impactful web apps. I specialize in both frontend design and backend logic — crafting seamless digital experiences from start to finish.
+  <br /><br />
+  I’m also actively working as a <span className="font-semibold text-violet-500">freelancer</span>, collaborating with clients to bring their visions to life. From modern UI/UX to robust backend systems, I enjoy blending creativity with clean, efficient code.
+  <br /><br />
+  Always exploring, always building — let’s create something amazing together!
+</p>
           </div>
         </motion.div>
       </AnimatePresence>
