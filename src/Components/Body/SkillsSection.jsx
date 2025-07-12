@@ -4,27 +4,29 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
   FaGitAlt, FaPython, FaAws, FaDocker, FaJava
 } from 'react-icons/fa';
+import { DiJenkins } from 'react-icons/di'; // ✅ Correct source
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
 import { FaGithub, FaLink, FaStackOverflow  } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
+
 const icons = [
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
   SiExpress, SiMongodb, SiTailwindcss, FaGitAlt, FaPython,
-  FaJava, FaAws, FaDocker,
+  FaJava, FaAws, FaDocker, DiJenkins
   
 ];
 
 const names = [
   'HTML5', 'CSS3', 'JavaScript', 'React', 'Node.js',
   'Express', 'MongoDB', 'Tailwind CSS', 'Git', 'Python',
-  'Java', 'AWS', 'Docker',
+  'Java', 'AWS', 'Docker', "Jenkins"
 ];
 
 const colors = [
   'text-orange-500', 'text-blue-500', 'text-yellow-400', 'text-cyan-400', 'text-green-600',
   'text-gray-300', 'text-green-500', 'text-sky-400', 'text-red-500', 'text-yellow-500',
-  'text-red-600', 'text-orange-400', 'text-blue-400',
+  'text-red-600', 'text-orange-400', 'text-blue-400','text-white-600'
 ];
 
 const fadeInUp = {

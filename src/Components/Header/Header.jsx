@@ -72,9 +72,9 @@ const Header = () => {
           <a href="#projects" className="text-lg hover:text-violet-400 transition">Projects</a>
           <a href="#contact" className="text-lg hover:text-violet-400 transition">Contact</a>
 
-          <adownload
+          <a
             href="https://drive.google.com/file/d/1FnoIngh9r8Ugu1-8WOO_wt4sKhbGkWyA/view?usp=sharing"
-            
+            download
             className="mt-2 px-5 py-2 rounded-full border border-violet-500 text-violet-400 hover:bg-violet-600 hover:text-white transition"
           >
             Resume

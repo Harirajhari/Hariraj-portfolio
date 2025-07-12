@@ -4,12 +4,19 @@ import { Briefcase, GraduationCap } from 'lucide-react'
 
 const experiences = [
   {
-    icon: <Briefcase size={20} className="text-white" />,
-    title: "Full Stack Developer Intern",
-    company: "Infoziant IT Solutions",
-    date: "Sep 2024 - Present",
-    desc: "Redesigned company website, worked with React & Tailwind, integrated APIs, and created smooth animations.",
-  },
+  icon: <Briefcase size={20} className="text-white" />,
+  title: "Associate Software Engineer",
+  company: "Infoziant IT Solutions",
+  date: "May 2025 - Present",
+  desc: "Contributing to scalable frontend development across live products using React, Tailwind CSS, and API integrations. Focused on clean UI, performance, and real-world deployment flows.",
+},
+{
+  icon: <Briefcase size={20} className="text-white" />,
+  title: "Full Stack Developer Intern",
+  company: "Infoziant IT Solutions",
+  date: "Sep 2024 - May 2025",
+  desc: "Worked on 4 major projects including a DAST tool, EduTech portal, assessment system, and e-commerce platform. Built responsive UIs, implemented test logic, role-based dashboards, and enhanced user experience using React, Tailwind CSS, and Node.js.",
+},
   {
     icon: <GraduationCap size={20} className="text-white" />,
     title: "Undergraduate",
