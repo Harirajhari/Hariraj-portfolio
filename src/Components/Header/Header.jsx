@@ -26,7 +26,7 @@ const Header = () => {
           <a href="#projects" className="hover:text-violet-400 transition">Projects</a>
           <a href="#contact" className="hover:text-violet-400 transition">Contact</a>
           <a
-            href="https://drive.google.com/file/d/186XaZSDnqMqAynxh7TZGs70x0ouBpZya/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FnoIngh9r8Ugu1-8WOO_wt4sKhbGkWyA/view?usp=sharing"
             download
             className="px-3 py-1 rounded-full border border-violet-500 hover:bg-violet-600 hover:text-white transition text-violet-400"
           >
